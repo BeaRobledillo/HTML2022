@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Web HTML</title>
+</head>
+
+<body>
+    <h1>Formulario HTML</h1>
+    <form>
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" placeholder="Nombre" required />
+        </div>
+        <br />
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color" placeholder="Color" />
+        </div>
+        <br />
+        <div>
+            <label for="provincia">Provincia:</label>
+            <select name="provincia">
+                <option data-postal="01" value="La Rioja">La Rioja</option>
+                <option data-postal="02" value="Navarra">Navarra</option>
+                <option data-postal="03" value="Asturias ">Asturias </option>
+                <option data-postal="04" value="Soria">Soria</option>
+            </select>
+
+        </div>
+        <br />
+        <div>
+            <label for="codigopostal">Código Postal</label>
+            <input type="text" id="codigopostal" placeholder="Código postal" maxlength="5" pattern="[0-9]{5}">
+        </div>
+        <br />
+        <div>
+            <label for="lenguaje">Lenguaje de programación preferido:</label>
+            <input list="lenguaje">
+            <datalist id="lenguaje">
+                <option value="C#">
+                <option value="Java">
+                <option value="JS">
+                <option value="C">
+                <option value="PHP ">
+            </datalist>
+        </div>
+        <br />
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>

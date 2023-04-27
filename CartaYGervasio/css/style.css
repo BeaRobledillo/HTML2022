@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h3{
+    color: blueviolet;
+}
+.mydiv {
+    margin: 30px 30px 30px 30px;
+}
+
+#divderecha {
+    text-align: right;
+}
+
+table {
+    width: 600px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td50 {
+    width: 50%;
+}
+
+.t25 {
+    width: 25%;
+}
+
+.fondoGris {
+    background-color: #F1F1F1;
+}

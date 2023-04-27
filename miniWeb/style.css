@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #C4BBF0;
+}
+
+.header {
+  width: 100%;
+  border-radius: 20px;
+  color: white;
+  padding-right: 15px;
+  border-radius: 20px;
+}
+
+#nav {
+  width: 200px;
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+#menu {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+#menu li>a {
+  padding-right: 15px;
+  min-width: 160px;
+  margin: 4px;
+  padding: 5px;
+  background-color: #000;
+  text-decoration: none;
+  display: block;
+  font: bold 15px Arial;
+  color: #ccc;
+}
+
+#menu li>a:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+#titulo {
+  float: left;
+  color: #C4BBF0;
+  width: 80%;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  margin-top: 10px;
+  float: left;
+  border-radius: 20px;
+}
+
+.container {
+  border-radius: 20px;
+  font-family: sans-serif;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.seccion1 {
+  border-radius: 20px;
+  background-color: #ccc;
+  padding: .8em;
+  margin: 0 .8em;
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+.seccion2 {
+  background-color: #C4BBF0;
+  padding: .8em;
+  margin: 0 .8em;
+  font-family: sans-serif;
+  line-height: 2;
+  border-radius: 20px;
+}
+
+.seccion3 {
+  background-color: #fae596;
+  float: right;
+  background-color: #ccc;
+  line-height: 2;
+  border-radius: 20px;
+}
+
+h3 {
+  color: blueviolet;
+  font-size: 30px;
+  text-align:left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #C4BBF0;
+  border-radius: 20px;
+}
+
+li {
+  line-height: 2;
+  float: right;
+  border-radius: 20px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.cp-text {
+  background: #eeeee4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 1%;
+  color: blueviolet;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  line-height: 2;
+  border-radius: 20px;
+}
